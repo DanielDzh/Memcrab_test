@@ -34,7 +34,7 @@ const createSquare = (obj: itemSquare) =>{
   
 
   return(
-    <Square element={obj} key={obj.amount} onClick={addAmount}  onMouseEnter={(e: React.FormEvent<HTMLInputElement>) => mouseEvent(obj,e)} onMouseLeave={() => setIsShown(false)}/>
+    <Square element={obj} key={Date.now()} onClick={addAmount}  onMouseEnter={(e: React.FormEvent<HTMLInputElement>) => mouseEvent(obj,e)} onMouseLeave={() => setIsShown(false)}/>
   )
 }
 
