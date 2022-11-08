@@ -1,0 +1,28 @@
+.square{
+   width: 40px;
+   height: 40px;
+   background: rgb(71, 105, 255);
+   border-radius: 12px;
+   color: #fff;
+   font-size: 12px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+   transition: all .3s ease;
+
+   &.turquoise{
+      background: rgb(51 194 230);
+      color: #000;
+
+      &:hover{
+         background: rgb(44, 162, 192);
+      }
+   }
+
+   &:hover{
+      transition: all .3s ease;
+      transform: scale(1.05);
+      background: rgb(51, 88, 255);
+   }
+}

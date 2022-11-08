@@ -1,0 +1,22 @@
+.matrix_container{
+   display: grid;
+   grid-template: auto / auto auto;
+   grid-gap: 5px;
+
+   .column{
+      display: flex;
+      flex-direction: column;
+      grid-gap: 5px;
+
+      .row{
+         display: flex;
+         grid-gap: 5px;
+      }
+   }
+   .sum_row{
+      grid-gap: 5px;
+      display: flex;
+      flex-direction: column;
+      
+   }
+}
